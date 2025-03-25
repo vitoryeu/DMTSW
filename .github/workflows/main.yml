@@ -24,7 +24,7 @@ jobs:
     - name: Build and push image
       uses: docker/build-push-action@v4
       with:
-        context: PracticalWork3/PracticalWork3
-        file: PracticalWork3/PracticalWork3/Dockerfile
+        context: PracticalWork3/PracticalWork3/PracticalWork3
+        file: PracticalWork3/PracticalWork3/PracticalWork3/Dockerfile
         push: true
         tags: ${{ secrets.DOCKER_USERNAME }}/app-image-eu:latest

@@ -52,3 +52,6 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+/.vs
+/PracticalWork3/PracticalWork3/.vs
+/PracticalWork3/PracticalWork3/PracticalWork3/appsettings.Development.json
